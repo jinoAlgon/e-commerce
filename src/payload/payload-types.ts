@@ -52,6 +52,7 @@ export interface Page {
             } | null;
             url?: string | null;
             label: string;
+            icon?: string | Media | null;
             appearance?: ('default' | 'primary' | 'secondary') | null;
           };
           id?: string | null;
@@ -76,6 +77,7 @@ export interface Page {
                 } | null;
                 url?: string | null;
                 label: string;
+                icon?: string | Media | null;
                 appearance?: ('primary' | 'secondary') | null;
               };
               id?: string | null;
@@ -103,6 +105,7 @@ export interface Page {
                 } | null;
                 url?: string | null;
                 label: string;
+                icon?: string | Media | null;
                 appearance?: ('default' | 'primary' | 'secondary') | null;
               };
               id?: string | null;
@@ -211,6 +214,7 @@ export interface Product {
                     } | null;
                     url?: string | null;
                     label: string;
+                    icon?: string | Media | null;
                     appearance?: ('primary' | 'secondary') | null;
                   };
                   id?: string | null;
@@ -238,6 +242,7 @@ export interface Product {
                     } | null;
                     url?: string | null;
                     label: string;
+                    icon?: string | Media | null;
                     appearance?: ('default' | 'primary' | 'secondary') | null;
                   };
                   id?: string | null;
@@ -303,6 +308,7 @@ export interface Product {
                     } | null;
                     url?: string | null;
                     label: string;
+                    icon?: string | Media | null;
                     appearance?: ('primary' | 'secondary') | null;
                   };
                   id?: string | null;
@@ -330,6 +336,7 @@ export interface Product {
                     } | null;
                     url?: string | null;
                     label: string;
+                    icon?: string | Media | null;
                     appearance?: ('default' | 'primary' | 'secondary') | null;
                   };
                   id?: string | null;
@@ -488,6 +495,7 @@ export interface Header {
           } | null;
           url?: string | null;
           label: string;
+          icon?: string | Media | null;
         };
         id?: string | null;
       }[]
@@ -497,11 +505,10 @@ export interface Header {
 }
 export interface Footer {
   id: string;
-  copyright?: string | null;
+  copyright: string;
   navItems?:
     | {
         link: {
-          icon: Media;
           type?: ('reference' | 'custom') | null;
           newTab?: boolean | null;
           reference?: {
@@ -510,6 +517,7 @@ export interface Footer {
           } | null;
           url?: string | null;
           label: string;
+          icon?: string | Media | null;
         };
         id?: string | null;
       }[]
