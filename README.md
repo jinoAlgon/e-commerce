@@ -1,4 +1,4 @@
-# eCommerce Website Project
+# eCommerce Website
 
 ## Overview
 This project is an advanced eCommerce website built using Next.js (version 14), integrating Stripe for secure payment processing, and utilizing TypeScript for type-safe code. With Payload CMS for a headless CMS approach, it offers a fast, secure, and scalable solution suitable for businesses of all sizes. The website boasts an attractive homepage, a user-friendly admin panel, and various features designed to satisfy both customers and site administrators.
@@ -19,7 +19,7 @@ This project is an advanced eCommerce website built using Next.js (version 14), 
 - **Containerization**: Docker
 
 ## Getting Started
-1. **Clone the repo**: https://github.com/jinoAlgon/e-commerce
+1. **Clone the repo**: https://github.com/jinoAlgon/e-commerce.git
 2. **Set Up Environment**: Copy `.env.example` to `.env` and populate with the required environment variables.
 3. **Install Dependencies**: Execute `npm install` or `yarn install` to install necessary dependencies.
 4. **Run the Project**: Launch the development server using `npm run dev` or `yarn dev`.
