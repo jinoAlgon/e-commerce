@@ -19,18 +19,23 @@ This project is an advanced eCommerce website built using Next.js (version 14), 
 - **Containerization**: Docker
 
 ## Getting Started
-1. **Set Up Environment**: Copy `.env.example` to `.env` and populate with the required environment variables.
-2. **Install Dependencies**: Execute `npm install` or `yarn install` to install necessary dependencies.
-3. **Run the Project**: Launch the development server using `npm run dev` or `yarn dev`.
+1. **Clone the repo**: https://github.com/jinoAlgon/e-commerce
+2. **Set Up Environment**: Copy `.env.example` to `.env` and populate with the required environment variables.
+3. **Install Dependencies**: Execute `npm install` or `yarn install` to install necessary dependencies.
+4. **Run the Project**: Launch the development server using `npm run dev` or `yarn dev`.
+5. **Launch**: Open `http://localhost:3000` in your browser.
+
+## Development and Deployment
+- Utilize Docker for easy setup or follow the manual quick start guide.
+- Deploy using Payload Cloud for a seamless deployment experience.
 
 ## Deployment
-This project is containerized with Docker, making deployment straightforward. Utilize the provided Dockerfile and `docker-compose.yml` for deployment purposes.
+Before going live, switch to Stripe's live mode and ensure your app builds and serves in production. Deploy easily with Payload Cloud or follow the manual deployment guide.
 
-## Contributing
-We welcome contributions. Adhere to the project's coding standards and submit pull requests for proposed features or bug fixes.
+## Questions
+Reach out on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions) for support.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This is the official [Payload E-Commerce Template](https://github.com/payloadcms/payload/blob/main/templates/ecommerce)
 
 ## Contact
 - **GitHub**: [jinoAlgon](https://github.com/jinoAlgon/e-commerce)
